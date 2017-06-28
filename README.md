@@ -8,3 +8,5 @@ Sams Teach Yourself Linux in 24 Hours
     ISBN-13: 978-0672315824
     Product Dimensions: 9.1 x 7.4 x 1.3 inches
     Shipping Weight: 2.1 pounds
+
+![](https://github.com/ve3wwg/isbn-0672315823/blob/master/front.jpg)
