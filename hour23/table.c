@@ -137,8 +137,8 @@ tqlReadTable(Table *table,Row *row) {
     
     disposeRow(row);
     errno = 0;
-    p = fgetpwent(table->file);
-    if ( !p && !errno )
+    p = getpwent();
+    //if ( !p && !errno )
         return EOF;     /* EOF */
     if ( !p )
         return errno;   /* Error */
@@ -153,8 +153,8 @@ tqlReadTable(Table *table,Row *row) {
  */
 int
 tqlWriteTable(Table *table,Row *row) {
-    if ( putpwent(&row->pw,table->file) == -1 )
-        return errno;
+    //if ( setpwent(&row->pw) == -1 )
+    //    return errno;
     return 0;
 }
 

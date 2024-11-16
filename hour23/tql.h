@@ -13,14 +13,14 @@
 #include <string.h>
 #include <getopt.h>
 #include <ctype.h>
-#include <malloc.h>
+//#include <malloc.h>
 #include <stdarg.h>
 #include <time.h>
 #include <errno.h>
 #include <signal.h>
 #include <memory.h>
 #include <pwd.h>
-#include <wait.h>
+#include <sys/wait.h>
 #include <sys/types.h>
 #include <sys/ipc.h>
 #include <sys/msg.h>
